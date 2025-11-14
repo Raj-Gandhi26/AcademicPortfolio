@@ -90,10 +90,10 @@ const Goals = () => {
                 </div>
                 <div className="flex-1">
                   <h3 className="text-xl font-bold mb-3 text-foreground">
-                    Continuous Learning Philosophy
+                    Conclusion
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    Growth through curiosity, collaboration, and hands-on building.
+                    My journey so far has strengthened my belief that meaningful technology is built through curiosity, responsibility, and continuous learning. Every challenge—whether in projects, hackathons, or collaborative work—has helped me grow as a developer who values clarity, ethics, and user-centered design. I aim to keep improving my skills, contribute to impactful projects, and work towards becoming a well-rounded engineer capable of solving real problems with thoughtful, reliable solutions.
                   </p>
                 </div>
               </div>
@@ -113,19 +113,71 @@ const Goals = () => {
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-primary/10 border border-neon/20 rounded-lg p-6">
                   <h4 className="text-lg font-bold mb-3 text-accent-secondary">Strengths</h4>
-                  <p className="text-muted-foreground">Problem Solving, fast learning, DB Design</p>
+                  <ul className="space-y-2">
+                    <li className="flex items-start">
+                      <span className="text-accent-secondary mr-2">•</span>
+                      <span className="text-muted-foreground text-sm">Strong problem-solving and analytical thinking</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-accent-secondary mr-2">•</span>
+                      <span className="text-muted-foreground text-sm">Clean, structured coding and UI design sense</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-accent-secondary mr-2">•</span>
+                      <span className="text-muted-foreground text-sm">Strong teamwork and communication</span>
+                    </li>
+                  </ul>
                 </div>
                 <div className="bg-primary/10 border border-neon/20 rounded-lg p-6">
                   <h4 className="text-lg font-bold mb-3 text-accent-secondary">Weaknesses</h4>
-                  <p className="text-muted-foreground">Need deeper ML foundations</p>
+                  <ul className="space-y-2">
+                    <li className="flex items-start">
+                      <span className="text-accent-secondary mr-2">•</span>
+                      <span className="text-muted-foreground text-sm">Need deeper understanding of advanced machine learning models</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-accent-secondary mr-2">•</span>
+                      <span className="text-muted-foreground text-sm">Limited exposure to large-scale production systems</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-accent-secondary mr-2">•</span>
+                      <span className="text-muted-foreground text-sm">Sometimes spend extra time perfecting UI details</span>
+                    </li>
+                  </ul>
                 </div>
                 <div className="bg-primary/10 border border-neon/20 rounded-lg p-6">
                   <h4 className="text-lg font-bold mb-3 text-accent-secondary">Opportunities</h4>
-                  <p className="text-muted-foreground">AI, cloud-native, open-source</p>
+                  <ul className="space-y-2">
+                    <li className="flex items-start">
+                      <span className="text-accent-secondary mr-2">•</span>
+                      <span className="text-muted-foreground text-sm">Growing demand for AI-assisted web systems</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-accent-secondary mr-2">•</span>
+                      <span className="text-muted-foreground text-sm">Open-source collaboration opportunities</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-accent-secondary mr-2">•</span>
+                      <span className="text-muted-foreground text-sm">Increasing scope for IoT + AI integrations</span>
+                    </li>
+                  </ul>
                 </div>
                 <div className="bg-primary/10 border border-neon/20 rounded-lg p-6">
                   <h4 className="text-lg font-bold mb-3 text-accent-secondary">Threats</h4>
-                  <p className="text-muted-foreground">Rapid tech shifts, High Competition in AI fields</p>
+                  <ul className="space-y-2">
+                    <li className="flex items-start">
+                      <span className="text-accent-secondary mr-2">•</span>
+                      <span className="text-muted-foreground text-sm">Rapid evolution of tech stacks and frameworks</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-accent-secondary mr-2">•</span>
+                      <span className="text-muted-foreground text-sm">High competition in AI and full-stack development roles</span>
+                    </li>
+                    <li className="flex items-start">
+                      <span className="text-accent-secondary mr-2">•</span>
+                      <span className="text-muted-foreground text-sm">Automation reducing entry-level opportunities</span>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>

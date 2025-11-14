@@ -33,7 +33,7 @@ const CV = () => {
           </div>
           <div className="space-y-4">
             <div className="bg-card border border-neon/30 rounded-lg p-6 hover:border-neon hover:glow-neon transition-all duration-300 hover:-translate-y-1">
-              <h3 className="text-xl font-bold text-neon mb-2">Bachelor of Science in Computer Engineering</h3>
+              <h3 className="text-xl font-bold text-neon mb-2">Bachelor of Technology in Computer Engineering</h3>
               <p className="text-foreground font-medium mb-2">Pandit Deendayal Energy University</p>
               <p className="text-muted-foreground text-sm mb-3">2023 - 2027 | GPA: 9.66/10.0</p>
               <p className="text-foreground/80 text-sm">
@@ -119,30 +119,6 @@ const CV = () => {
 
         {/* Contact */}
         <section className="animate-fade-in" style={{ animationDelay: "0.5s" }}>
-          <div className="flex items-center mb-6">
-            <Mail className="w-6 h-6 text-neon mr-3" />
-            <h2 className="text-2xl font-bold text-foreground">Contact Information</h2>
-          </div>
-          <div className="bg-card border border-neon/30 rounded-lg p-6 hover:border-neon hover:glow-neon transition-all duration-300">
-            <div className="grid md:grid-cols-2 gap-4 text-sm">
-              <div>
-                <span className="text-muted-foreground">Email:</span>
-                <p className="text-foreground">john.anderson@example.com</p>
-              </div>
-              <div>
-                <span className="text-muted-foreground">Phone:</span>
-                <p className="text-foreground">+1 (555) 123-4567</p>
-              </div>
-              <div>
-                <span className="text-muted-foreground">Location:</span>
-                <p className="text-foreground">Cambridge, MA, USA</p>
-              </div>
-              <div>
-                <span className="text-muted-foreground">Website:</span>
-                <p className="text-foreground">www.johnanderson.com</p>
-              </div>
-            </div>
-          </div>
         </section>
       </div>
       <Footer />

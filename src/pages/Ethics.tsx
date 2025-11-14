@@ -15,7 +15,7 @@ const Ethics = () => {
           {/* Case Study Card */}
           <div className="bg-card border border-neon/30 rounded-lg p-8 hover:border-neon hover:glow-neon transition-all duration-300 shadow-card animate-fade-in">
             <h2 className="text-3xl font-bold mb-6 text-accent-secondary">
-              Case Study: Ethical AI in Sustainable Infrastructure
+              Case Study: Ethical Design in Emergency Medical QR Systems
             </h2>
 
             {/* Ethical Challenge */}
@@ -29,7 +29,8 @@ const Ethics = () => {
                     Ethical Challenge
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    Ensuring fairness, transparency, and accountability in AI predictions while working on InfraVision.
+                    Designing the Emergency Medical QR Portal required balancing instant emergency access with strict protection of sensitive medical data.
+                    The challenge was ensuring that life-saving information could be accessed quickly during critical moments without compromising privacy, consent, or misuse of personal health records.
                   </p>
                 </div>
               </div>
@@ -48,19 +49,19 @@ const Ethics = () => {
                   <ul className="space-y-2">
                     <li className="flex items-start">
                       <span className="text-accent-secondary mr-2">•</span>
-                      <span className="text-muted-foreground">Used Explainable AI (XAI)</span>
+                      <span className="text-muted-foreground">Implemented role-based access control (RBAC)</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-accent-secondary mr-2">•</span>
-                      <span className="text-muted-foreground">Conducted bias audits</span>
+                      <span className="text-muted-foreground">Used tokenized QR codes</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-accent-secondary mr-2">•</span>
-                      <span className="text-muted-foreground">Used open-data ethics</span>
+                      <span className="text-muted-foreground">Ensured transparent consent</span>
                     </li>
                     <li className="flex items-start">
                       <span className="text-accent-secondary mr-2">•</span>
-                      <span className="text-muted-foreground">Prioritized user trust and verifiability</span>
+                      <span className="text-muted-foreground">Prioritized user trust, privacy and compliance</span>
                     </li>
                   </ul>
                 </div>
@@ -78,7 +79,8 @@ const Ethics = () => {
                     Reflection
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    This reinforced my belief in responsible innovation, equity, and global awareness.
+                    This experience strengthened my belief that technology must protect people as much as it serves them.
+                    Building the system deepened my understanding of ethical engineering—balancing accessibility, safety, transparency, and responsible data handling to create solutions that are both life-saving and privacy-respectful.
                   </p>
                 </div>
               </div>

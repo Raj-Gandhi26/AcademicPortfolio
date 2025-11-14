@@ -25,10 +25,10 @@ const About = () => {
           <div className="mb-8 animate-fade-in">
             <div className="bg-card border border-neon/30 rounded-lg p-8 hover:border-neon hover:glow-neon transition-all duration-300 shadow-card">
               <p className="text-foreground text-lg leading-relaxed mb-6">
-                I am a Computer Science Engineering student at Pandit Deendayal Energy University with a strong interest in full-stack development, database systems, security, and building practical tools that solve real problems.
+                I am a Computer Science Engineering student at Pandit Deendayal Energy University with a strong interest in Full-Stack Development, Database Design, Artificial Intelligence, Machine Learning, and building practical tools that solve real problems.
               </p>
               <p className="text-foreground text-lg leading-relaxed mb-6">
-                My learning journey is driven by curiosity and hands-on experimentation. I enjoy transforming ideas into working systems — whether it is full-stack apps, smart backend logic, or clean user interfaces.
+                My learning journey is driven by curiosity and hands-on experimentation. I enjoy transforming ideas into working systems — whether it is full-stack apps, smart database logic, or clean user interfaces.
               </p>
               <p className="text-foreground text-lg leading-relaxed">
                 I believe learning is a continuous process rooted in innovation, integrity, and the ability to adapt. My goal is to create technology that is simple, meaningful, and genuinely useful.
